@@ -1,0 +1,27 @@
+{
+  "name": "RemoteUpload",
+  "version": "1.0.0",
+  "description": "Effortless Local and Remote (Google Drive) OTA updates for ESP32 and ESP8266.",
+  "keywords": ["ota", "wifi", "esp32", "esp8266", "update", "google-drive", "firmware"],
+  "authors": [
+    {
+      "name": "Idlan Zafran Mohd Zaidie",
+      "email": "lanzaidie@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IdlanZafran/RemoteUpload.git"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "dependencies": {
+      "tzapu/WiFiManager": "^2.0.16-rc.2"
+  },
+
+}
